@@ -94,7 +94,7 @@ html = get_html(url)
 url_list = get_data(html)
 data = save_data(url_list)
 save_file(data)
-for i in range(5):
+for i in range(667):
     r.set(i,data)
 print('successful!')
 
